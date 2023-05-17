@@ -1,0 +1,23 @@
+# <stdio.h>
+
+int main() {
+    int a;
+    int b;
+    printf("enter a:");
+    scanf("%d",&a);
+    printf("enter b:");
+    scanf("%d",&b);
+    a=a-b;
+    b=a+b;
+    a=b-a;
+    printf("a=%2d\n",a);
+    printf("b=%2d\n",b);
+    return 0;
+}
+
+
+Output:
+enter a:10
+enter b:20
+a=20
+b=10
